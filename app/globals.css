@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* COMMON STYLE */
+.wrapper {
+  @apply container mx-auto px-5 md:px-0;
+}

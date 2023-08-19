@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colore: {
+      colors: {
         dark: "#19191B",
         light: "#FFFCFA",
         grey: "#E2E0DF",
