@@ -6,3 +6,19 @@
 .wrapper {
   @apply container mx-auto px-5 md:px-0;
 }
+
+.eq {
+  transition: 300ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* LINK STYLE */
+.link-item {
+  @apply relative;
+}
+.link-item::after {
+  @apply content-[""] absolute bottom-0 left-1/2 w-0 h-px bg-dark -translate-x-1/2 eq;
+}
+
+.link-item:hover::after {
+  @apply w-full;
+}
