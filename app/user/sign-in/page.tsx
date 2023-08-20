@@ -1,5 +1,5 @@
 const SignInPage = () => {
-  return <main>SignInPage</main>;
+  return <main className="text-2xl bg-rose">SignInPage</main>;
 };
 
 export default SignInPage;
