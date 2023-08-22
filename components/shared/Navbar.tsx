@@ -10,17 +10,17 @@ const Navbar = () => {
           <ul className="flex gap-5">
             <li>
               <Link href="/" className="link-item">
-                Link 3
+                Home
               </Link>
             </li>
             <li>
               <Link href="/" className="link-item">
-                Link 1
+                About
               </Link>
             </li>
             <li>
               <Link href="/" className="link-item">
-                Link 2
+                Events
               </Link>
             </li>
           </ul>
@@ -40,12 +40,12 @@ const Navbar = () => {
           <ul className="flex gap-5 justify-end items-center">
             <li>
               <Link href="/" className="link-item">
-                Link 4
+                Models
               </Link>
             </li>
             <li>
               <Link href="/" className="link-item">
-                Link 5
+                Gallery
               </Link>
             </li>
             <li>

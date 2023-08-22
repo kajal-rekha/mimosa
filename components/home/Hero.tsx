@@ -1,4 +1,8 @@
 import Image from "next/image";
+import { Playfair_Display } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 const Hero = () => {
   return (
@@ -11,14 +15,12 @@ const Hero = () => {
               src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Woman Holding Pink Petaled Flower"
               width={640}
-              height={300}
+              height={360}
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full h-full flex items-center">
-            <h2 className="text-7xl uppercase font-semibold">
-              Lorem ipsum DOLER
-            </h2>
+            <h2 className="text-8xl uppercase font-semibold">Awaken Your</h2>
           </div>
         </div>
 
