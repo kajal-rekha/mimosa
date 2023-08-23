@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* BASE STYLE */
+main {
+  @apply mt-20;
+}
 /* COMMON STYLE */
 .wrapper {
   @apply container mx-auto px-5 md:px-0;
@@ -25,4 +29,9 @@
 
 .link-item:hover::after {
   @apply w-full;
+}
+
+/* TYPEOGRAPHY */
+.headline-1 {
+  @apply text-8xl;
 }

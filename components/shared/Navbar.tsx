@@ -3,7 +3,7 @@ import { buttonVariants } from "../ui/Button";
 
 const Navbar = () => {
   return (
-    <header className="h-20 border-b border-grey bg-white flex items-center">
+    <header className="h-20 border-b border-grey bg-white flex items-center bg-white/80 backdrop-blur-lg fixed top-0 right-0 left-0 z-[100]">
       <div className="wrapper grid grid-cols-3 gap-20 items-center">
         {/* NAV LEFT */}
         <nav>

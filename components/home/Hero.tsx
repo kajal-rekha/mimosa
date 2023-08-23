@@ -20,7 +20,7 @@ const Hero = () => {
             />
           </div>
           <div className="w-full h-full flex items-center">
-            <h2 className="text-8xl uppercase font-semibold">Awaken Your</h2>
+            <h2 className="headline-1 uppercase font-bold">Unleash Your</h2>
           </div>
         </div>
 
@@ -29,8 +29,11 @@ const Hero = () => {
         {/* SECOND ROW */}
         <div className="w-full h-[8rem] grid grid-cols-[25%_auto_50%] gap-20">
           <div className="w-full h-full flex items-center">
-            {" "}
-            <h2 className="text-7xl uppercase font-semibold">Lorem I</h2>
+            <h2
+              className={cn(playfairDisplay.className, "headline-1 lowercase")}
+            >
+              Inner
+            </h2>
           </div>
 
           <div className="w-full h-full overflow-hidden rounded-[50px_0px_50px_50px]">
@@ -44,7 +47,9 @@ const Hero = () => {
           </div>
 
           <div className="w-full h-full flex items-center">
-            <h2 className="text-7xl uppercase font-semibold">Lorem IPSUM DO</h2>
+            <h2 className="headline-1 uppercase font-bold">
+              Elegance<span className="text-green">.</span>
+            </h2>
           </div>
         </div>
 
@@ -53,13 +58,13 @@ const Hero = () => {
         {/* THIRD ROW */}
         <div className="w-full h-[8rem] grid grid-cols-[40%_auto] gap-20">
           <div className="w-full h-full flex items-center">
-            <h2 className="text-7xl uppercase font-semibold">Lorem IPSUM </h2>
+            <h2 className="headline-1 uppercase font-semibold">Eternal</h2>
           </div>
           <div className="w-full h-full overflow-hidden rounded-[0px_50px_0px_50px]">
             <Image
               src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Woman Holding Pink Petaled Flower"
-              width={12800}
+              width={1280}
               height={720}
               className="w-full h-full object-cover"
             />
@@ -74,14 +79,31 @@ const Hero = () => {
             <Image
               src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Woman Holding Pink Petaled Flower"
-              width={12800}
+              width={1280}
               height={720}
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full h-full flex items-center">
-            <h2 className="text-7xl uppercase font-semibold">
-              Lorem IPSUM DOLLE
+            <h2 className="headline-1 uppercase font-semibold">
+              <span
+                className={cn(
+                  playfairDisplay.className,
+                  "lowercase font-normal"
+                )}
+              >
+                with
+              </span>{" "}
+              M
+              <span
+                className={cn(
+                  playfairDisplay.className,
+                  "lowercase font-normal text-pink"
+                )}
+              >
+                i
+              </span>
+              mosa<span className="text-orange">.</span>
             </h2>
           </div>
         </div>
