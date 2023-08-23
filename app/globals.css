@@ -15,7 +15,7 @@ main {
 }
 
 .eq {
-  transition: 300ms cubic-bezier(0.25, 1, 0.5, 1);
+  transition: 500ms cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 /* LINK STYLE */

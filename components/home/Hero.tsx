@@ -1,15 +1,16 @@
 import Image from "next/image";
 import { Playfair_Display } from "next/font/google";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 const Hero = () => {
   return (
     <section className="wrapper section-padding h-[calc(100vh-5rem)]">
-      <div className="w-full h-full grid grid-rows-8 gap-5 items-center">
+      <div className="w-full h-full grid grid-rows-8 gap-5 items-center relative">
         {/* FIRST ROW */}
-        <div className="w-full h-[8rem]  grid grid-cols-[30%_auto] gap-20">
+        <div className="w-full h-[5.5rem] grid grid-cols-[30%_auto] gap-20">
           <div className="w-full h-full overflow-hidden rounded-[0px_58px_8px_50px]">
             <Image
               src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -27,7 +28,7 @@ const Hero = () => {
         <hr className="border-grey" />
 
         {/* SECOND ROW */}
-        <div className="w-full h-[8rem] grid grid-cols-[25%_auto_50%] gap-20">
+        <div className="w-full h-[5.5rem] grid grid-cols-[25%_auto_50%] gap-20">
           <div className="w-full h-full flex items-center">
             <h2
               className={cn(playfairDisplay.className, "headline-1 lowercase")}
@@ -56,7 +57,7 @@ const Hero = () => {
         <hr className="border-grey" />
 
         {/* THIRD ROW */}
-        <div className="w-full h-[8rem] grid grid-cols-[40%_auto] gap-20">
+        <div className="w-full h-[5.5rem] grid grid-cols-[40%_auto] gap-20">
           <div className="w-full h-full flex items-center">
             <h2 className="headline-1 uppercase font-semibold">Eternal</h2>
           </div>
@@ -74,7 +75,7 @@ const Hero = () => {
         <hr className="border-grey" />
 
         {/* FOURTH ROW */}
-        <div className="w-full h-[8rem] grid grid-cols-[35%_auto] gap-20">
+        <div className="w-full h-[5.5rem] grid grid-cols-[35%_auto] gap-20">
           <div className="w-full h-full overflow-hidden rounded-[50px_50px_50px_0px]">
             <Image
               src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -109,6 +110,20 @@ const Hero = () => {
         </div>
 
         <hr className="border-grey" />
+
+        {/* Packages Button */}
+        <Link
+          href="/#packages"
+          className=" text-lg bg-dark text-light w-40 h-40 rounded-full overflow-hidden flex justify-center items-center uppercase absolute left-[33%] -bottom-[5%] z-[1] group shadow-2xl shadow-dark/50 hover:shadow-violet/50 eq "
+        >
+          <p className="z-[3]">Packages</p>
+
+          {/* FILLER 1 */}
+          <span className="z-[2] absolute top-full left-0 right-0 bottom-0 w-full h-1/2 bg-violet group-hover:top-1/2 eq"></span>
+
+          {/* FILLER 2 */}
+          <span className="z-[2] absolute -top-full left-0 right-0 bottom-0 w-full h-1/2 bg-violet group-hover:top-0 eq"></span>
+        </Link>
       </div>
     </section>
   );
