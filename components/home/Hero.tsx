@@ -13,8 +13,9 @@ const Hero = () => {
         <div className="w-full h-[5.5rem] grid grid-cols-[30%_auto] gap-20">
           <div className="w-full h-full overflow-hidden rounded-[0px_58px_8px_50px]">
             <Image
-              src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="Woman Holding Pink Petaled Flower"
+              src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1692792657/photo-1616394584738-fc6e612e71b9_quwrwk.jpg"
+              alt="Photo of an Attractive Young Woman with Tattoos Lying on a Blanket in Nature
+"
               width={640}
               height={360}
               className="w-full h-full object-cover"
@@ -39,7 +40,7 @@ const Hero = () => {
 
           <div className="w-full h-full overflow-hidden rounded-[50px_0px_50px_50px]">
             <Image
-              src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805704/woman-4837854_1280_e1mmnp.jpg"
               alt="Woman Holding Pink Petaled Flower"
               width={320}
               height={180}
@@ -63,7 +64,7 @@ const Hero = () => {
           </div>
           <div className="w-full h-full overflow-hidden rounded-[0px_50px_0px_50px]">
             <Image
-              src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805257/fashion-835219_1280_apyr2s.jpg"
               alt="Woman Holding Pink Petaled Flower"
               width={1280}
               height={720}
@@ -78,7 +79,7 @@ const Hero = () => {
         <div className="w-full h-[5.5rem] grid grid-cols-[35%_auto] gap-20">
           <div className="w-full h-full overflow-hidden rounded-[50px_50px_50px_0px]">
             <Image
-              src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://res.cloudinary.com/dh0ado2ir/image/upload/v1692807176/pexels-photo-1308881_f7rwiy.jpg"
               alt="Woman Holding Pink Petaled Flower"
               width={1280}
               height={720}
