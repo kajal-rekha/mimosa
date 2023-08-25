@@ -115,7 +115,7 @@ const Hero = () => {
         {/* Packages Button */}
         <Link
           href='/#packages'
-          className=' eq group absolute -bottom-[36%] left-[34%] z-[1] flex h-40 w-40 items-center justify-center overflow-hidden rounded-full bg-dark text-lg uppercase text-light shadow-2xl shadow-dark/50 hover:shadow-violet/50 '
+          className=' eq group absolute -bottom-[36%] left-[34%] z-[1] flex h-40 w-40 items-center justify-center overflow-hidden rounded-full bg-dark text-lg uppercase text-light shadow-2xl shadow-dark/50 hover:shadow-violet/50'
         >
           <p className='z-[3]'>Packages</p>
 
