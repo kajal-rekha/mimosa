@@ -5,7 +5,7 @@ import PackageItem from './PackageItem';
 
 const Packages = () => {
   return (
-    <section className='wrapper mt-20' id='packages'>
+    <section className='wrapper mt-60' id='packages'>
       <SectionTitle title='Explore our beauty packages' subTitle='Packages' />
       <HorizontalTab tabs={['Skincare', 'Haircare', 'Makeup Artistry']}>
         {/* SKIN CARE */}
