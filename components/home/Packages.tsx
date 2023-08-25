@@ -1,10 +1,16 @@
-import React from "react";
-import SectionTitle from "../shared/SectionTitle";
+import React from 'react';
+import HorizontalTab from '../shared/HorizontalTab';
+import SectionTitle from '../shared/SectionTitle';
 
 const Packages = () => {
   return (
-    <section className="wrapper mt-20" id="packages">
-      <SectionTitle title="Explore our beauty packages" subTitle="Packages" />
+    <section className='wrapper mt-20' id='packages'>
+      <SectionTitle title='Explore our beauty packages' subTitle='Packages' />
+      <HorizontalTab tabs={['Tab 1', 'Tab 2', 'Tab 3']}>
+        <p>Tab 1 Content</p>
+        <p>Tab 2 Content</p>
+        <p>Tab 3 Content</p>
+      </HorizontalTab>
     </section>
   );
 };
