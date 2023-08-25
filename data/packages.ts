@@ -57,8 +57,77 @@ export const data = [
     category: 'Makeup Services',
     masterCategory: 'Makeup Artistry',
     image:
-      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692939771/6cde1f626c384f3c797d764692024b64_tkdhgx.jpg',
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692966683/cropped-Shared-from-Lightroom-mobile_aojlmp.webp',
     description: 'Get ready for special events with our glamorous makeup.',
     price: 100,
+  },
+
+  {
+    id: 7,
+    title: 'Renew and Rejuvenate Facial',
+    category: 'Facial Treatments',
+    masterCategory: 'Skincare',
+    image:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692964475/images_1_cfcvgx.jpg',
+    description:
+      'Experience the ultimate skin our specialized facial treatment.',
+    price: 85,
+  },
+
+  {
+    id: 8,
+    title: 'Acne Control Program',
+    category: 'Skin Programs',
+    masterCategory: 'Skincare',
+    image:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692964963/images_2_jvzgi6.jpg',
+    description:
+      'Say goodbye to acne with our comprehensive program and skincare recommendations.',
+    price: 150,
+  },
+
+  {
+    id: 9,
+    title: 'Hair Repair Package',
+    category: 'Hair Treatments',
+    masterCategory: 'Haircare',
+    image:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692965446/hydration-treatments-for-hair-10-1024x683_cscd2p.jpg',
+    description:
+      'Revitalize and nourish your hair with our specialized treatment, focusing on repair.',
+    price: 120,
+  },
+
+  {
+    id: 10,
+    title: 'Trendy Haircut',
+    category: 'Haircuts',
+    masterCategory: 'Haircare',
+    image:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692965450/Best-short-haircut_p0wogz.webp',
+    description:
+      'Stay up-to-date with the latest hair trends with our expert haircut and styling services.',
+    price: 60,
+  },
+  {
+    id: 11,
+    title: 'Natural Beauty Makeup',
+    category: 'Makeup Services',
+    masterCategory: 'Makeup Artistry',
+    image:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692966033/makeup-looks-2014-06-no-makeup-makeup-look-chloe-grace-moretz_u6ouss.webp',
+    description:
+      'Elevate your natural beauty with our subtle and elegant makeup touch.',
+    price: 75,
+  },
+  {
+    id: 12,
+    title: 'Evening Glamour Makeup',
+    category: 'Makeup Services',
+    masterCategory: 'Makeup Artistry',
+    image:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692966038/glammakeuplook1_xkwewc.jpg',
+    description: 'Captivate the night with our bold and glamorous makeup.',
+    price: 90,
   },
 ];
