@@ -1,6 +1,7 @@
 import { data } from '@/data/packages';
-import HorizontalTab from '../shared/HorizontalTab';
+// import HorizontalTab from '../shared/HorizontalTab';
 import SectionTitle from '../shared/SectionTitle';
+import HorizontalTab from '../ui/HarizontalTab';
 import PackageItem from './PackageItem';
 
 const Packages = () => {
