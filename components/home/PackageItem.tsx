@@ -42,7 +42,7 @@ const PackageItem: React.FC<PackageItemProps> = ({
           {category}
         </span>
         <h4 className='text-2xl'>{title}</h4>
-        <p className=''>{description}</p>
+        <p className='text-dark/75'>{description.substring(0, 50)}...</p>
         <div className='flex items-center justify-between gap-2.5'>
           <p className='text-2xl'>{formatCurrency(price)}</p>
           <Link
