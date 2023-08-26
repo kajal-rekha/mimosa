@@ -1,5 +1,6 @@
 import { data } from '@/data/packages';
 import { cn } from '@/lib/utils';
+import { packageItem } from '@/types/packageItem';
 import Link from 'next/link';
 import SectionTitle from '../shared/SectionTitle';
 import { buttonVariants } from '../ui/Button';
@@ -14,30 +15,32 @@ const Packages = () => {
         {/* SKIN CARE */}
         <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {data
-            .filter((item: any) => item.masterCategory === 'Skincare')
-            .sort((a: any, b: any) => a.price - b.price)
+            .filter((item: packageItem) => item.masterCategory === 'Skincare')
+            .sort((a: packageItem, b: packageItem) => a.price - b.price)
             .slice(0, 4)
-            .map((item: any) => (
+            .map((item: packageItem) => (
               <PackageItem key={item.id} {...item} />
             ))}
         </div>
         {/* Haircare */}
         <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {data
-            .filter((item: any) => item.masterCategory === 'Haircare')
-            .sort((a: any, b: any) => a.price - b.price)
+            .filter((item: packageItem) => item.masterCategory === 'Haircare')
+            .sort((a: packageItem, b: packageItem) => a.price - b.price)
             .slice(0, 4)
-            .map((item: any) => (
+            .map((item: packageItem) => (
               <PackageItem key={item.id} {...item} />
             ))}
         </div>
         {/* Makeup Artistry */}
         <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
           {data
-            .filter((item: any) => item.masterCategory === 'Makeup Artistry')
-            .sort((a: any, b: any) => a.price - b.price)
+            .filter(
+              (item: packageItem) => item.masterCategory === 'Makeup Artistry'
+            )
+            .sort((a: packageItem, b: packageItem) => a.price - b.price)
             .slice(0, 4)
-            .map((item: any) => (
+            .map((item: packageItem) => (
               <PackageItem key={item.id} {...item} />
             ))}
         </div>
