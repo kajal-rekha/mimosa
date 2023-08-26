@@ -45,7 +45,10 @@ const PackageItem: React.FC<PackageItemProps> = ({
         <p className=''>{description}</p>
         <div className='flex items-center justify-between gap-2.5'>
           <p className='text-2xl'>{formatCurrency(price)}</p>
-          <Link href={`/packages/${id}`} className={buttonVariants()}>
+          <Link
+            href={`/packages/${id}`}
+            className={buttonVariants({ variant: 'violet' })}
+          >
             View details
           </Link>
         </div>
