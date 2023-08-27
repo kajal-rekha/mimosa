@@ -1,25 +1,25 @@
-import Link from "next/link";
-import { buttonVariants } from "../ui/Button";
+import Link from 'next/link';
+import { buttonVariants } from '../ui/Button';
 
 const Navbar = () => {
   return (
-    <header className="h-20 border-b border-grey bg-white flex items-center bg-white/80 backdrop-blur-lg fixed top-0 right-0 left-0 z-[100]">
-      <div className="wrapper grid grid-cols-3 gap-20 items-center">
+    <header className='border-gray fixed left-0 right-0 top-0 z-[100] flex h-20 items-center border-b bg-white bg-white/80 backdrop-blur-lg'>
+      <div className='wrapper grid grid-cols-3 items-center gap-20'>
         {/* NAV LEFT */}
         <nav>
-          <ul className="flex gap-5">
+          <ul className='flex gap-5'>
             <li>
-              <Link href="/packages" className="link-item">
+              <Link href='/packages' className='link-item'>
                 Packages
               </Link>
             </li>
             <li>
-              <Link href="/" className="link-item">
+              <Link href='/' className='link-item'>
                 About
               </Link>
             </li>
             <li>
-              <Link href="/" className="link-item">
+              <Link href='/' className='link-item'>
                 Events
               </Link>
             </li>
@@ -27,9 +27,9 @@ const Navbar = () => {
         </nav>
         {/* NAV MID */}
         <nav>
-          <ul className="flex justify-center">
+          <ul className='flex justify-center'>
             <li>
-              <Link href="/" className="lowercase text-4xl font-bold text-pink">
+              <Link href='/' className='text-4xl font-bold lowercase text-pink'>
                 mimosa
               </Link>
             </li>
@@ -37,21 +37,21 @@ const Navbar = () => {
         </nav>
         {/* NAV RIGHT */}
         <nav>
-          <ul className="flex gap-5 justify-end items-center">
+          <ul className='flex items-center justify-end gap-5'>
             <li>
-              <Link href="/" className="link-item">
+              <Link href='/' className='link-item'>
                 Models
               </Link>
             </li>
             <li>
-              <Link href="/" className="link-item">
+              <Link href='/' className='link-item'>
                 Gallery
               </Link>
             </li>
             <li>
               <Link
-                href="/user/sign-in"
-                className={buttonVariants({ variant: "ocean" })}
+                href='/user/sign-in'
+                className={buttonVariants({ variant: 'ocean' })}
               >
                 Sign in
               </Link>

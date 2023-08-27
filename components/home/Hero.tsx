@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <hr className='border-grey' />
+        <hr className='border-gray' />
 
         {/* SECOND ROW */}
         <div className='grid h-[8rem] w-full grid-cols-[25%_auto_50%] gap-20'>
@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <hr className='border-grey' />
+        <hr className='border-gray' />
 
         {/* THIRD ROW */}
         <div className='grid h-[8rem] w-full grid-cols-[40%_auto] gap-20'>
@@ -73,7 +73,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <hr className='border-grey' />
+        <hr className='border-gray' />
 
         {/* FOURTH ROW */}
         <div className='grid h-[8rem] w-full grid-cols-[35%_auto] gap-20'>
@@ -110,7 +110,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <hr className='border-grey' />
+        <hr className='border-gray' />
 
         {/* Packages Button */}
         <Link
