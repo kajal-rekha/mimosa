@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Cumminity = () => {
+const Community = () => {
   return (
     <section className='wrapper section-padding mt-20 h-screen '>
       <div className='flex h-full w-full items-center justify-center'>
@@ -48,4 +48,4 @@ const Cumminity = () => {
   );
 };
 
-export default Cumminity;
+export default Community;
