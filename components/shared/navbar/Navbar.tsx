@@ -1,5 +1,5 @@
+import { buttonVariants } from '@/components/ui/Button';
 import Link from 'next/link';
-import { buttonVariants } from '../ui/Button';
 
 const Navbar = () => {
   return (
