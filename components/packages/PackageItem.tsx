@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import { packageItem } from '@/types/packageItem';
 import Image from 'next/image';
 import { buttonVariants } from '../ui/Button';
 import { formatCurrency } from '@/utils/formatCurrenct';
+import { packageItem } from '@/types/packageItem';
 
 interface PackageItemProps {
   packageItem: packageItem;
