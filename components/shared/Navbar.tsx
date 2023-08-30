@@ -3,7 +3,7 @@ import { buttonVariants } from '../ui/Button';
 
 const Navbar = () => {
   return (
-    <header className='border-gray fixed left-0 right-0 top-0 z-[100] flex h-20 items-center border-b bg-white bg-white/80 backdrop-blur-lg'>
+    <header className='fixed left-0 right-0 top-0 z-[100] flex h-20 items-center border-b border-gray bg-white bg-white/80 backdrop-blur-lg'>
       <div className='wrapper grid grid-cols-3 items-center gap-20'>
         {/* NAV LEFT */}
         <nav>
@@ -50,7 +50,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href='/user/sign-in'
+                href='/sign-in'
                 className={buttonVariants({ variant: 'ocean' })}
               >
                 Sign in

@@ -11,7 +11,7 @@ main {
   @apply container mx-auto px-5 md:px-0;
 }
 .section-padding {
-  @apply py-10 md:py-20;
+  @apply py-20;
 }
 
 .eq {
@@ -24,7 +24,7 @@ main {
 }
 
 .link-item::after {
-  @apply content-[""] absolute bottom-0 left-1/2 w-0 h-px bg-dark -translate-x-1/2 eq;
+  @apply eq absolute bottom-0 left-1/2 h-px w-0 -translate-x-1/2 bg-dark content-[""];
 }
 
 .link-item:hover::after {

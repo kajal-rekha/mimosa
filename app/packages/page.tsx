@@ -1,10 +1,16 @@
-import AllPackages from '@/components/packages/AllPackages';
+import Packages from '@/components/home/Packages';
+import FooterMini from '@/components/shared/FooterMini';
+import Navbar from '@/components/shared/Navbar';
 
 const PackagesPage = () => {
   return (
-    <main>
-      <AllPackages />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Packages fromPackagePage />
+      </main>
+      <FooterMini />
+    </>
   );
 };
 
