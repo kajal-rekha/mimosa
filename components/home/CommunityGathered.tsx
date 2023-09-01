@@ -10,11 +10,11 @@ const CommunityGathered = () => {
             // OUTER BLOCK
             <div key={index} className='group z-[3] h-full w-full'>
               {/* INNER BLOCK */}
-              <div className='eq invisible h-full w-full bg-blue opacity-50 group-hover:visible group-hover:opacity-100'></div>
+              <div className='eq invisible h-full w-full bg-orange opacity-50 group-hover:visible group-hover:opacity-100'></div>
             </div>
           ))}
           {/* OVERLAY */}
-          <div className='absolute bottom-0 left-0 right-0 top-0 z-[2] h-full w-full bg-blue/20'></div>
+          <div className='absolute bottom-0 left-0 right-0 top-0 z-[2] h-full w-full bg-orange/20'></div>
           {/* IMAGE */}
           <div className='absolute bottom-0 left-0 right-0 top-0 z-[1] h-full w-full overflow-hidden bg-red'>
             <Image
@@ -26,13 +26,17 @@ const CommunityGathered = () => {
             />
           </div>
           {/* UPPER LEFT TEXT */}
-          <div className='absolute -left-[10%] top-[10%] z-[4] w-[75%] text-5xl text-light'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
-            officiis corporis eaque dolore quo dolorum sunt aperiam ratione!
-            Minus vero at fugit, id nostrum possimus veritatis nihil non in
-            officiis?
+          <div className='absolute -left-[10%]  top-[10%] z-[3] w-[65%] text-5xl font-semibold uppercase text-light'>
+            {`Join now to grab the`}
+            <span className='text-orange'>{`"Mimosa Beauty Pass"`}</span>
+            {` for
+            all services at once!`}
           </div>
           {/* BOTTOM RIGHT TEXT */}
+          <div className='absolute -right-[10%] bottom-[10%] z-[3] w-[65%] text-right text-5xl uppercase text-light'>
+            {`3-month subscription,`} <span className='text-orange'>$300.</span>{' '}
+            {`Limited time - join us today!`}
+          </div>
         </div>
       </div>
     </section>

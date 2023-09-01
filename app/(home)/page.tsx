@@ -13,8 +13,8 @@ const HomePage = () => {
       <main>
         <Hero />
         <Packages />
-        <Community />
         <CommunityGathered />
+        <Community />
       </main>
 
       <Footer />
