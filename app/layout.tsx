@@ -19,7 +19,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      appearance={{
+        variables: {
+          colorPrimary: '#32B8CB',
+          colorSuccess: '#00B79F',
+          colorWarning: '#FF7A42',
+          colorDanger: '#C3315D',
+          colorBackground: '#FFFCFA',
+          colorText: '#19191B',
+          colorTextSecondary: '#5a5a59',
+          colorTextOnPrimaryBackground: '#ebf8fa',
+        },
+        layout: {
+          socialButtonsPlacement: 'bottom',
+        },
+      }}
+    >
       <html lang='en'>
         <body
           className={cn(
