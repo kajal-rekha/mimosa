@@ -14,13 +14,13 @@ const Navbar = async () => {
         <nav>
           <ul className='flex gap-5'>
             <li>
-              <Link href='/packages' className='link-item'>
+              <Link href='/#packages' className='link-item'>
                 Packages
               </Link>
             </li>
             <li>
-              <Link href='/' className='link-item'>
-                About
+              <Link href='/#products' className='link-item'>
+                Products
               </Link>
             </li>
             <li>
