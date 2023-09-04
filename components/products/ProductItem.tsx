@@ -10,18 +10,18 @@ interface ProductItemProps {
 
 const ProductItem: React.FC<ProductItemProps> = ({ item }) => {
   return (
-    <div className='h-full w-full overflow-hidden rounded-xl p-5 '>
-      <div className='h-[15rem] w-full overflow-hidden border border-gray'>
+    <div className='h-full w-full gap-5 overflow-hidden rounded-xl  border border-gray p-5'>
+      <div className='group h-[15rem] w-full overflow-hidden rounded-lg'>
         <Image
           src={item.images[0]}
           alt={item.title}
           width={640}
           height={360}
           priority
-          className='h-full w-full object-cover'
+          className='eq h-full w-full object-cover group-hover:scale-125'
         />
       </div>
-      <div className='mt-5 flex flex-col gap-2.5'>
+      <div className=' mt-5 flex flex-col gap-2.5'>
         <span className='text-xs font-bold uppercase tracking-widest text-orange'>
           {item.category}
         </span>
