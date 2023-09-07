@@ -12,7 +12,7 @@ interface PackagesProps {
 }
 const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
   return (
-    <section className='wrapper mt-60' id='packages'>
+    <section className='wrapper mt-64' id='packages'>
       <SectionTitle title='Explore our beauty packages' subTitle='Packages' />
       <HorizontalTab tabs={['Skincare', 'Haircare', 'Makeup Artistry']}>
         {/* SKIN CARE */}
@@ -34,7 +34,7 @@ const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
               ))}
         </div>
         {/* Haircare */}
-        <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+        <div className='grid grid-cols-1 gap-10 md:grid-cols-2  xl:grid-cols-3 2xl:grid-cols-4'>
           {!fromPackagePage &&
             data
               .filter((item: packageItem) => item.masterCategory === 'Haircare')
@@ -52,7 +52,7 @@ const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
               ))}
         </div>
         {/* Makeup Artistry */}
-        <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+        <div className='grid grid-cols-1 gap-10 md:grid-cols-2  xl:grid-cols-3 2xl:grid-cols-4'>
           {!fromPackagePage &&
             data
               .filter(

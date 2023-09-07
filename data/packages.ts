@@ -166,4 +166,87 @@ export const data = [
     specialistImage:
       'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805249/woman-5667299_1280_gvfenb.jpg',
   },
+  {
+    id: 13,
+    title: 'Revitalizing Facial Package',
+    category: 'Skin Treatments',
+    masterCategory: 'Skincare',
+    image:
+      'https://images.pexels.com/photos/5069451/pexels-photo-5069451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Refresh your skin and restore its vitality with our facials.',
+    price: 160,
+    specialistName: 'Sarah',
+    specialistImage:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805249/woman-5667299_1280_gvfenb.jpg',
+  },
+  {
+    id: 14,
+    title: 'Haircut and Styling Session',
+    category: 'Hair Services',
+    masterCategory: 'Haircare',
+    image:
+      'https://images.pexels.com/photos/3993447/pexels-photo-3993447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description:
+      'Get a fresh haircut and style that suits your personality and preferences.',
+    price: 210,
+    specialistName: 'Michael',
+    specialistImage:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805251/man-497718_1280_jxxxfk.jpg',
+  },
+  {
+    id: 15,
+    title: 'Makeup Application Service',
+    category: 'Beauty Services',
+    masterCategory: 'Makeup Artistry',
+    image:
+      'https://images.pexels.com/photos/5053437/pexels-photo-5053437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description:
+      'Enhance your beauty for special occasions with our professional makeup application service.',
+    price: 100,
+    specialistName: 'Jessica',
+    specialistImage:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805247/woman-3029112_1280_wknhic.jpg',
+  },
+  {
+    id: 16,
+    title: 'Beauty Makeover Package',
+    category: 'Beauty Services',
+    masterCategory: 'Makeup Artistry',
+    image:
+      'https://images.pexels.com/photos/3387577/pexels-photo-3387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description:
+      'Transform your look with our comprehensive beauty makeover package, including makeup, hair, and skincare treatments.',
+    price: 60,
+    specialistName: 'Sophia',
+    specialistImage:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805246/woman-3185629_1280_gthoyx.jpg',
+  },
+  {
+    id: 17,
+    title: 'Skincare Consultation and Treatment',
+    category: 'Skin Treatments',
+    masterCategory: 'Skincare',
+    image:
+      'https://images.pexels.com/photos/8142195/pexels-photo-8142195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description:
+      'Achieve healthy and radiant skin with a personalized skincare consultation and treatment by our experts.',
+    price: 75,
+    specialistName: 'Elena',
+    specialistImage:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805245/woman-3185641_1280_q1d9pe.jpg',
+  },
+  {
+    id: 18,
+    title: 'Hair Coloring and Highlights',
+    category: 'Hair Services',
+    masterCategory: 'Haircare',
+    image:
+      'https://images.pexels.com/photos/8468036/pexels-photo-8468036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description:
+      'Add vibrancy and dimension to your hair with our professional hair coloring and highlights service.',
+    price: 85,
+    specialistName: 'Sophie',
+    specialistImage:
+      'https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805244/woman-3185628_1280_d7ip9a.jpg',
+  },
 ];
