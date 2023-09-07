@@ -10,8 +10,9 @@ const Community = () => {
           {/* LEFT BOX */}
           <div className='absolute -left-[15%] -top-[15%] z-[2] h-[400px] w-[300px] overflow-hidden rounded-tl-[100px] '>
             <Image
-              src='https://images.pexels.com/photos/1906815/pexels-photo-1906815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-              alt='Woman Standing Beside Brown Grass'
+              src='https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              alt='Smiling Woman With Red Hair
+'
               width={720}
               height={1280}
               priority
@@ -22,8 +23,8 @@ const Community = () => {
           {/* MID BOX */}
           <div className='absolute left-[50%] top-[50%] z-[3] h-[400px] w-[350px] -translate-x-1/2 -translate-y-1/2 overflow-hidden '>
             <Image
-              src='https://images.pexels.com/photos/5938539/pexels-photo-5938539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-              alt='Calm African American female in bathrobe touching face against blue background
+              src='https://images.pexels.com/photos/1989297/pexels-photo-1989297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              alt='Standing Woman in Gray Sweater Behind Plants
 '
               width={720}
               height={1280}
