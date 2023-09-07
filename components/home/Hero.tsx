@@ -40,8 +40,9 @@ const Hero = () => {
 
           <div className='h-full w-full overflow-hidden rounded-[50px_0px_50px_50px]'>
             <Image
-              src='https://res.cloudinary.com/dh0ado2ir/image/upload/v1692805704/woman-4837854_1280_e1mmnp.jpg'
-              alt='Woman Holding Pink Petaled Flower'
+              src='https://images.pexels.com/photos/6663601/pexels-photo-6663601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              alt='Woman Covering Her Eye with Jade Stone
+'
               width={320}
               height={180}
               className='h-full w-full object-cover'
@@ -79,8 +80,9 @@ const Hero = () => {
         <div className='grid h-[8rem] w-full grid-cols-[35%_auto] gap-20'>
           <div className='h-full w-full overflow-hidden rounded-[50px_50px_50px_0px]'>
             <Image
-              src='https://res.cloudinary.com/dh0ado2ir/image/upload/v1692807176/pexels-photo-1308881_f7rwiy.jpg'
-              alt='Woman Holding Pink Petaled Flower'
+              src='https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              alt='Woman in Wrapped in White Towel Lying on Bed with Eyes Closed
+'
               width={1280}
               height={720}
               className='h-full w-full object-cover'
