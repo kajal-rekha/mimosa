@@ -17,7 +17,7 @@ export const data = [
     id: 2,
     title: 'Gentle Cleansing Milk with Aloe Vera',
     images: [
-      'https://images.pexels.com/photos/4959838/pexels-photo-4959838.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      'https://images.pexels.com/photos/14798571/pexels-photo-14798571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'cleanser_image2_url',
       'cleanser_image3_url',
       'cleanser_image4_url',
@@ -31,7 +31,7 @@ export const data = [
     id: 3,
     title: 'Professional Ionic Hair Dryer with Diffuser',
     images: [
-      'https://images.pexels.com/photos/4959838/pexels-photo-4959838.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      'https://images.pexels.com/photos/3993467/pexels-photo-3993467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'hair_dryer_image2_url',
       'hair_dryer_image3_url',
       'hair_dryer_image4_url',
@@ -45,7 +45,7 @@ export const data = [
     id: 4,
     title: 'Exquisite Eau de Parfum for Women',
     images: [
-      'https://images.pexels.com/photos/4959838/pexels-photo-4959838.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      'https://images.pexels.com/photos/5812092/pexels-photo-5812092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'perfume_image2_url',
       'perfume_image3_url',
       'perfume_image4_url',
@@ -59,10 +59,7 @@ export const data = [
     id: 5,
     title: 'Vibrant Nail Polish Set with 12 Colors',
     images: [
-      'https://images.pexels.com/photos/4959838/pexels-photo-4959838.jpeg?auto=compress&cs=tinysrgb&w=1600',
-      'nail_polish_image2_url',
-      'nail_polish_image3_url',
-      'nail_polish_image4_url',
+      'https://images.pexels.com/photos/1373748/pexels-photo-1373748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     ],
     category: 'Nails',
     description:
@@ -73,7 +70,7 @@ export const data = [
     id: 6,
     title: 'Advanced Anti-Aging Serum with Retinol and Hyaluronic Acid',
     images: [
-      'https://images.pexels.com/photos/4959838/pexels-photo-4959838.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      'https://images.pexels.com/photos/8101532/pexels-photo-8101532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'serum_image2_url',
       'serum_image3_url',
       'serum_image4_url',
@@ -87,7 +84,7 @@ export const data = [
     id: 7,
     title: 'Pro Ceramic Hair Straightener with Digital Display',
     images: [
-      'https://images.pexels.com/photos/4959838/pexels-photo-4959838.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      'https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       'hair_straightener_image2_url',
       'hair_straightener_image3_url',
       'hair_straightener_image4_url',
@@ -101,7 +98,7 @@ export const data = [
     id: 8,
     title: 'Elegant Eyeshadow Palette with 18 Pigmented Shades',
     images: [
-      'https://images.pexels.com/photos/4959838/pexels-photo-4959838.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      'https://images.pexels.com/photos/2600761/pexels-photo-2600761.jpeg?auto=compress&cs=tinysrgb&w=600',
       'eyeshadow_image2_url',
       'eyeshadow_image3_url',
       'eyeshadow_image4_url',
