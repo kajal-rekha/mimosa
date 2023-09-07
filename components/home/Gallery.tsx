@@ -6,7 +6,7 @@ import { gallery } from '@/types/gallery';
 
 const Gallery = () => {
   return (
-    <section className='mt-20 min-h-screen bg-dark text-light'>
+    <section id='gallery' className='mt-20 min-h-screen bg-dark text-light'>
       <div className='wrapper section-padding h-full  w-full'>
         <SectionTitle
           subTitle='Gallery'

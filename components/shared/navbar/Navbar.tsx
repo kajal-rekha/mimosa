@@ -20,8 +20,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href='/' className='link-item'>
-                Events
+              <Link href='/#gallery' className='link-item'>
+                Gallery
               </Link>
             </li>
           </ul>
@@ -46,7 +46,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link href='/' className='link-item'>
-                Gallery
+                Events
               </Link>
             </li>
             <li>
