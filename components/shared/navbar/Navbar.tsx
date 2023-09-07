@@ -1,7 +1,7 @@
 import { buttonVariants } from '@/components/ui/Button';
 import Link from 'next/link';
 
-const Navbar = async () => {
+const Navbar = () => {
   return (
     <header className='flex h-20 items-center border-b border-gray bg-white bg-white/80 backdrop-blur-lg'>
       <div className='wrapper grid grid-cols-3 items-center gap-20'>
