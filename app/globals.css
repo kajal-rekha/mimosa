@@ -8,9 +8,10 @@ html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
 }
-/* main {
+main {
   @apply mt-20;
-} */
+}
+
 /* COMMON STYLE */
 .wrapper {
   @apply container mx-auto px-5 md:px-0;
