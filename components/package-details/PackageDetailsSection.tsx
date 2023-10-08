@@ -9,7 +9,10 @@ const PackageDetailsSection: React.FC<PackageDetailsSectionProps> = ({
   packageItem,
 }) => {
   return (
-    <section className='wrapper section-padding'>{packageItem.title}</section>
+    <section className='wrapper section-padding'>
+      <p>{packageItem.title}</p>
+      <p>{packageItem.description}</p>
+    </section>
   );
 };
 
