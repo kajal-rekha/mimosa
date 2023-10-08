@@ -10,7 +10,7 @@ const Loading: React.FC<LoadingProps> = ({ isLoading }) => {
       <BeatLoader
         color='#32B8CB'
         loading={isLoading}
-        size={24}
+        size={20}
         data-testid='loader'
         aria-label='Loading Spinner'
       />

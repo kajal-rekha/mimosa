@@ -57,7 +57,7 @@ const Community = () => {
 
         {/* join Button */}
         <Link
-          href='/#packages'
+          href='/sign-in'
           className=' eq group absolute -bottom-[15%] right-[4%] z-[1] flex h-40 w-40 items-center justify-center overflow-hidden rounded-full bg-dark/80 text-lg uppercase text-light shadow-2xl shadow-dark/50 hover:shadow-red/50'
         >
           <p className='z-[3]'>Join Now</p>
