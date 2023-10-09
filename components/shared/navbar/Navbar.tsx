@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <header className='fixed left-0 right-0 top-0 flex h-20 items-center border-b border-gray bg-white bg-white/80 backdrop-blur-lg'>
+    <header className='fixed left-0 right-0 top-0 z-[100] flex h-20 items-center border-b border-gray bg-white bg-white/80 backdrop-blur-lg'>
       <div className='wrapper grid grid-cols-3 items-center gap-20'>
         {/* NAV LEFT */}
 
@@ -15,13 +15,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href='/#products' className='link-item'>
-                Products
+              <Link href='/#gallery' className='link-item'>
+                Gallery
               </Link>
             </li>
             <li>
-              <Link href='/#gallery' className='link-item'>
-                Gallery
+              <Link href='/' className='link-item'>
+                Link 3
               </Link>
             </li>
           </ul>
@@ -41,12 +41,12 @@ const Navbar = () => {
           <ul className='flex items-center justify-end gap-5'>
             <li>
               <Link href='/' className='link-item'>
-                Models
+                Link 4
               </Link>
             </li>
             <li>
               <Link href='/' className='link-item'>
-                Events
+                Link 5
               </Link>
             </li>
             <li>

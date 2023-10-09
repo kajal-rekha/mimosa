@@ -32,13 +32,13 @@ const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
 
       {/* PACKAGES */}
       {beautyPackages && beautyPackages.length > 0 && (
-        <HorizontalTab tabs={['Skincare', 'Haircare', 'Makeup Artistry']}>
-          {/* Skin Care */}
+        <HorizontalTab tabs={['Wellness', 'Beauty', 'Events']}>
+          {/* Wellness */}
           <div className='grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
             {!fromPackagePage &&
               beautyPackages
                 .filter(
-                  (item: beautyPackageType) => item.category === 'Skincare'
+                  (item: beautyPackageType) => item.category === 'Wellness'
                 )
                 .sort(
                   (a: beautyPackageType, b: beautyPackageType) =>
@@ -52,7 +52,7 @@ const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
             {fromPackagePage &&
               beautyPackages
                 .filter(
-                  (item: beautyPackageType) => item.category === 'Skincare'
+                  (item: beautyPackageType) => item.category === 'Wellness'
                 )
                 .sort(
                   (a: beautyPackageType, b: beautyPackageType) =>
@@ -63,13 +63,11 @@ const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
                 ))}
           </div>
 
-          {/* Haircare */}
+          {/* Beauty */}
           <div className='grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
             {!fromPackagePage &&
               beautyPackages
-                .filter(
-                  (item: beautyPackageType) => item.category === 'Haircare'
-                )
+                .filter((item: beautyPackageType) => item.category === 'Beauty')
                 .sort(
                   (a: beautyPackageType, b: beautyPackageType) =>
                     a.price - b.price
@@ -81,9 +79,7 @@ const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
 
             {fromPackagePage &&
               beautyPackages
-                .filter(
-                  (item: beautyPackageType) => item.category === 'Haircare'
-                )
+                .filter((item: beautyPackageType) => item.category === 'Beauty')
                 .sort(
                   (a: beautyPackageType, b: beautyPackageType) =>
                     a.price - b.price
@@ -93,14 +89,11 @@ const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
                 ))}
           </div>
 
-          {/* Makeup Artistry */}
+          {/*Events*/}
           <div className='grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
             {!fromPackagePage &&
               beautyPackages
-                .filter(
-                  (item: beautyPackageType) =>
-                    item.category === 'Makeup Artistry'
-                )
+                .filter((item: beautyPackageType) => item.category === 'Events')
                 .sort(
                   (a: beautyPackageType, b: beautyPackageType) =>
                     a.price - b.price
@@ -112,10 +105,7 @@ const Packages: React.FC<PackagesProps> = ({ fromPackagePage }) => {
 
             {fromPackagePage &&
               beautyPackages
-                .filter(
-                  (item: beautyPackageType) =>
-                    item.category === 'Makeup Artistry'
-                )
+                .filter((item: beautyPackageType) => item.category === 'Events')
                 .sort(
                   (a: beautyPackageType, b: beautyPackageType) =>
                     a.price - b.price
