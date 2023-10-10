@@ -5,7 +5,7 @@ import useSWR from 'swr';
 const fetcher = async (url: string, token: string = '') => {
   const res = await fetch(url, {
     headers: {
-      Authorization: `Beaser ${token}`,
+      Authorization: `Bearer ${token}`,
     },
   });
 
